@@ -1,0 +1,82 @@
+## Prohibit the automatic placement of pins that are connected to VCC or GND for configuration.
+CONFIG PROHIBIT = P144;
+CONFIG PROHIBIT = P69;
+CONFIG PROHIBIT = P60;
+
+# CLK
+NET "clk_in" LOC = P94;
+NET "clk_in" IOSTANDARD = LVTTL;
+TIMESPEC TS_clk = PERIOD "clk_in" 31.25 ns HIGH 50%;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2014/07/17
+NET "clk_in" TNM_NET = clk_in;
+
+NET "rx"             LOC="P101" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=FAST;          # RX
+NET "tx"             LOC="P105" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=FAST; # TX
+
+# A0
+NET "digit_select[3]" LOC = P48;
+NET "digit_select[3]" IOSTANDARD = LVTTL;
+
+# A1
+NET "segments[7]" LOC = P51;
+NET "segments[7]" IOSTANDARD = LVTTL;
+# A2
+NET "digit_select[2]" LOC = P56;
+NET "digit_select[2]" IOSTANDARD = LVTTL;
+# A3
+NET "segments[4]" LOC = P58;
+NET "segments[4]" IOSTANDARD = LVTTL;
+# A4
+NET "segments[5]" LOC = P61;
+NET "segments[5]" IOSTANDARD = LVTTL;
+# A5
+NET "segments[2]" LOC = P66;
+NET "segments[2]" IOSTANDARD = LVTTL;
+# A6
+NET "segments[3]" LOC = P67;
+NET "segments[3]" IOSTANDARD = LVTTL;
+# A7
+NET "segments[0]" LOC = P75;
+NET "segments[0]" IOSTANDARD = LVTTL;
+# A8
+NET "digit_select[1]" LOC = P79;
+NET "digit_select[1]" IOSTANDARD = LVTTL;
+# A9
+NET "segments[6]" LOC = P81;
+NET "segments[6]" IOSTANDARD = LVTTL;
+# A10
+NET "segments[1]" LOC = P83;
+NET "segments[1]" IOSTANDARD = LVTTL;
+# A11
+NET "digit_select[0]" LOC = P85;
+NET "digit_select[0]" IOSTANDARD = LVTTL;
+
+# B13
+NET "rstn" LOC = P55; #Down
+NET "rstn" IOSTANDARD = LVTTL;
+
+NET "base_led" LOC = "P112" | IOSTANDARD=LVTTL ; #Base board led
+
+NET "leds[7]"         LOC="P123" |IOSTANDARD=LVTTL;                                # C8
+NET "leds[6]"         LOC="P124" |IOSTANDARD=LVTTL;                                # C9
+NET "leds[5]"         LOC="P126" |IOSTANDARD=LVTTL;                                # C10
+NET "leds[4]"         LOC="P127" |IOSTANDARD=LVTTL;                                # C11
+NET "leds[3]"         LOC="P131" |IOSTANDARD=LVTTL;                                # C12
+NET "leds[2]"         LOC="P132" |IOSTANDARD=LVTTL;                                # C13
+NET "leds[1]"         LOC="P133" |IOSTANDARD=LVTTL;                                # C14
+NET "leds[0]"         LOC="P134" |IOSTANDARD=LVTTL;                                # C15
+
+# PlanAhead Generated IO constraints 
+NET "digit_select[3]" SLEW = FAST;
+NET "digit_select[2]" SLEW = FAST;
+NET "digit_select[1]" SLEW = FAST;
+NET "digit_select[0]" SLEW = FAST;
+NET "segments[7]" SLEW = FAST;
+NET "segments[6]" SLEW = FAST;
+NET "segments[5]" SLEW = FAST;
+NET "segments[4]" SLEW = FAST;
+NET "segments[3]" SLEW = FAST;
+NET "segments[2]" SLEW = FAST;
+NET "segments[1]" SLEW = FAST;
+NET "segments[0]" SLEW = FAST;
+

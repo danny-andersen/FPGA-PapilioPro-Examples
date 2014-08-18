@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/Uart_simple/uart_simple_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_simple_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker time="93984375000" label="" />
+      <marker time="312598000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/uart_simple_tb/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/frame_err" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">frame_err</obj_property>
+      <obj_property name="ObjectShortName">frame_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/start_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_flag</obj_property>
+      <obj_property name="ObjectShortName">start_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/sample_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sample_clk</obj_property>
+      <obj_property name="ObjectShortName">sample_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/sample_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sample_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_counter[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/bit_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/rx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/rx_byte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_byte[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/tx_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ready</obj_property>
+      <obj_property name="ObjectShortName">tx_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/tx_ready_held" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ready_held</obj_property>
+      <obj_property name="ObjectShortName">tx_ready_held</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/tx_send" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_send[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_send[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/tx_copy" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_copy[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_copy[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/tx_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_counter[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/tx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/tx_bit_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_bit_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_bit_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/uut/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/tx_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_simple_tb/tx_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_count[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

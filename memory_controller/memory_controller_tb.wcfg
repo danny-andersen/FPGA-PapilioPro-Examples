@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/memory_controller/memory_controller_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="memory_controller_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/memory_controller_tb/clke" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clke</obj_property>
+      <obj_property name="ObjectShortName">clke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/csn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">csn</obj_property>
+      <obj_property name="ObjectShortName">csn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/rasn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rasn</obj_property>
+      <obj_property name="ObjectShortName">rasn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/casn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">casn</obj_property>
+      <obj_property name="ObjectShortName">casn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/wen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/bank" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bank[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bank[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/damh" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">damh</obj_property>
+      <obj_property name="ObjectShortName">damh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/daml" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">daml</obj_property>
+      <obj_property name="ObjectShortName">daml</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/init_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">init_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/init_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">init_enable</obj_property>
+      <obj_property name="ObjectShortName">init_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/init_time" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">init_time</obj_property>
+      <obj_property name="ObjectShortName">init_time</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/refresh_time" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">refresh_time</obj_property>
+      <obj_property name="ObjectShortName">refresh_time</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/refresh_req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">refresh_req</obj_property>
+      <obj_property name="ObjectShortName">refresh_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/req_in_prog" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_in_prog[1:0]</obj_property>
+      <obj_property name="ObjectShortName">req_in_prog[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/row_change" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">row_change</obj_property>
+      <obj_property name="ObjectShortName">row_change</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/uut/op_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op_state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/addr_req_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_req_in[21:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_req_in[21:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_controller_tb/ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+</wave_config>

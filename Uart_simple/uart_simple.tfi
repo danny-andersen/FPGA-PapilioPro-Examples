@@ -1,0 +1,9 @@
+
+
+
+// Instantiate the module
+uart_simple instance_name (
+    .rx(rx)
+    );
+
+

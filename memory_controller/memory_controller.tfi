@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+memory_controller instance_name (
+    .clk_in(clk_in), 
+    .rstn(rstn), 
+    .addr_req_in(addr_req_in), 
+    .data_inout(data_inout), 
+    .req(req), 
+    .write(write), 
+    .ack(ack), 
+    .clk(clk), 
+    .clke(clke), 
+    .csn(csn), 
+    .rasn(rasn), 
+    .casn(casn), 
+    .wen(wen), 
+    .bank(bank), 
+    .damh(damh), 
+    .daml(daml), 
+    .mem_addr(mem_addr), 
+    .data(data)
+    );
+
+

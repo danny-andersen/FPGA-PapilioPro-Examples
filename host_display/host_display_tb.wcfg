@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/host_display/host_display_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="host_display_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/host_display_tb/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/segments" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">segments[7:0]</obj_property>
+      <obj_property name="ObjectShortName">segments[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/digit_select" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit_select[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_select[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/dsn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dsn</obj_property>
+      <obj_property name="ObjectShortName">dsn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/clearn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clearn</obj_property>
+      <obj_property name="ObjectShortName">clearn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/clear_on_next" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clear_on_next</obj_property>
+      <obj_property name="ObjectShortName">clear_on_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/rx_byte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_byte[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/rx_held" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_held[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_held[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/display/buf_len" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_len[4:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_len[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/display/digit0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/display/digit1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/display/digit2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/display/digit3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/display/ascii_buf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ascii_buf[0:31,7:0]</obj_property>
+      <obj_property name="ObjectShortName">ascii_buf[0:31,7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/tx_send" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_send[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_send[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/tx_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ready</obj_property>
+      <obj_property name="ObjectShortName">tx_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/uut/uart/tx_copy" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_copy[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_copy[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/host_display_tb/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+</wave_config>

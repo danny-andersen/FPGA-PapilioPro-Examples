@@ -1,0 +1,28 @@
+
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2014/06/27
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 50 % INPUT_JITTER 100 ps;
+OFFSET = IN 20 ns VALID 20 ns BEFORE "clk" RISING;
+OFFSET = OUT 20 ns AFTER "clk";
+
+
+NET "enable" PULLUP;
+
+
+NET "out1" LOC = P112;
+NET "enable" LOC = P114;
+
+
+NET "rst" PULLUP;
+
+
+NET "rst" LOC = P115;
+
+# PlanAhead Generated IO constraints 
+
+NET "out1" SLEW = FAST;
+
+# PlanAhead Generated physical constraints 
+
+INST "clk_BUFGP" LOC = P94;
+NET "clk" LOC = P94;

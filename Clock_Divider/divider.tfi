@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+divider instance_name (
+    .enable(enable), 
+    .clk(clk), 
+    .rst(rst), 
+    .out1(out1)
+    );
+
+

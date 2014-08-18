@@ -1,0 +1,2 @@
+verilog work "../Clock_Divider/divider.v"
+verilog work "memory_controller.v"

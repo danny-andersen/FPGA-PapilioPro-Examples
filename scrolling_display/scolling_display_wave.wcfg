@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/scrolling_display/scrolling_display_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="scrolling_display_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/scrolling_display_tb/segments" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">segments[7:0]</obj_property>
+      <obj_property name="ObjectShortName">segments[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/digit_select" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit_select[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_select[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/ascii" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ascii[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ascii[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/dsn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dsn</obj_property>
+      <obj_property name="ObjectShortName">dsn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/clearn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clearn</obj_property>
+      <obj_property name="ObjectShortName">clearn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/buf_len" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_len[4:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_len[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/scroll_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scroll_clk</obj_property>
+      <obj_property name="ObjectShortName">scroll_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/buf_ptr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_ptr[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/digit0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/digit1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/digit2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/digit3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scrolling_display_tb/uut/ds_sync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ds_sync</obj_property>
+      <obj_property name="ObjectShortName">ds_sync</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,5 @@
+verilog work "../four_char_display/four_char_display.v"
+verilog work "../clock_gen/clock_gen.v"
+verilog work "../scrolling_display/scrolling_display.v"
+verilog work "../high_speed_uart/high_speed_uart.v"
+verilog work "host_display.v"

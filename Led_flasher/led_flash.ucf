@@ -1,0 +1,18 @@
+
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2014/06/29
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 31.25 ns HIGH 50 %;
+
+NET "led_out" LOC = P112; //Base board led
+NET "led_out0" LOC = P123; //LED 0 on Logicstart
+NET "led_out1" LOC = P124; //LED 1 on Logicstart
+NET "led_out2" LOC = P126; //LED 2 on Logicstart
+
+NET "rstn" LOC = P47; //Logic start joystick select off = high
+
+NET "led_out" SLEW = FAST;
+NET "led_out1" SLEW = FAST;
+NET "led_out2" SLEW = FAST;
+
+
+NET "clk" LOC = P94;

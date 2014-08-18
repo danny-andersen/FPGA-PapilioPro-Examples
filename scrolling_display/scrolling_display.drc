@@ -1,0 +1,169 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Jul 17 23:10:57 2014
+
+drc -z scrolling_display.ncd scrolling_display.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[5]_AND_128_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][6]_AND_142_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][4]_AND_162_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][7]_AND_156_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][2]_AND_182_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][5]_AND_176_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][3]_AND_196_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[3]_AND_132_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][0]_AND_154_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[6]_AND_126_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][3]_AND_148_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][7]_AND_140_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][1]_AND_168_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][5]_AND_160_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][3]_AND_180_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][6]_AND_174_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][4]_AND_194_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][7]_AND_188_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[0]_AND_138_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[4]_AND_130_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][1]_AND_152_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[7]_AND_124_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][4]_AND_146_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][2]_AND_166_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][0]_AND_186_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][0]_AND_202_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][7]_AND_172_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][5]_AND_192_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[1]_AND_136_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][2]_AND_150_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[1][5]_AND_144_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][0]_AND_170_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][3]_AND_164_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[2][6]_AND_158_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][1]_AND_184_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[3][4]_AND_178_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][1]_AND_200_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][2]_AND_198_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii_buf[4][6]_AND_190_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   clear_sync_ascii[2]_AND_134_o is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+DRC detected 0 errors and 40 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

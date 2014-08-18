@@ -1,0 +1,79 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Aug 08 14:14:12 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+PROHIBIT = SITE "P144";
+PROHIBIT = SITE "P69";
+PROHIBIT = SITE "P60";
+COMP "bank<0>" LOCATE = SITE "P143" LEVEL 1;
+COMP "data<15>" LOCATE = SITE "P30" LEVEL 1;
+COMP "bank<1>" LOCATE = SITE "P142" LEVEL 1;
+COMP "mem_addr<0>" LOCATE = SITE "P140" LEVEL 1;
+COMP "mem_addr<1>" LOCATE = SITE "P139" LEVEL 1;
+COMP "mem_addr<2>" LOCATE = SITE "P138" LEVEL 1;
+COMP "mem_addr<3>" LOCATE = SITE "P137" LEVEL 1;
+COMP "mem_addr<4>" LOCATE = SITE "P46" LEVEL 1;
+COMP "mem_addr<5>" LOCATE = SITE "P45" LEVEL 1;
+COMP "mem_addr<6>" LOCATE = SITE "P44" LEVEL 1;
+COMP "mem_addr<10>" LOCATE = SITE "P141" LEVEL 1;
+COMP "mem_addr<7>" LOCATE = SITE "P43" LEVEL 1;
+COMP "mem_addr<11>" LOCATE = SITE "P35" LEVEL 1;
+COMP "clk_in" LOCATE = SITE "P94" LEVEL 1;
+COMP "mem_addr<8>" LOCATE = SITE "P41" LEVEL 1;
+COMP "mem_addr<9>" LOCATE = SITE "P40" LEVEL 1;
+COMP "damh" LOCATE = SITE "P17" LEVEL 1;
+COMP "daml" LOCATE = SITE "P7" LEVEL 1;
+COMP "data<0>" LOCATE = SITE "P9" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "P10" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "P11" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "P12" LEVEL 1;
+COMP "data<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "data<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "data<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "data<7>" LOCATE = SITE "P8" LEVEL 1;
+COMP "data<8>" LOCATE = SITE "P21" LEVEL 1;
+COMP "data<9>" LOCATE = SITE "P22" LEVEL 1;
+COMP "clk_out" LOCATE = SITE "P32" LEVEL 1;
+COMP "csn" LOCATE = SITE "P1" LEVEL 1;
+COMP "casn" LOCATE = SITE "P5" LEVEL 1;
+COMP "rasn" LOCATE = SITE "P2" LEVEL 1;
+COMP "clke" LOCATE = SITE "P33" LEVEL 1;
+COMP "data<10>" LOCATE = SITE "P23" LEVEL 1;
+COMP "data<11>" LOCATE = SITE "P24" LEVEL 1;
+COMP "wen" LOCATE = SITE "P6" LEVEL 1;
+COMP "data<12>" LOCATE = SITE "P26" LEVEL 1;
+COMP "data<13>" LOCATE = SITE "P27" LEVEL 1;
+COMP "data<14>" LOCATE = SITE "P29" LEVEL 1;
+TIMEGRP clk_in = BEL "addr_req_0" BEL "addr_req_1" BEL "addr_req_2" BEL
+        "addr_req_3" BEL "addr_req_4" BEL "addr_req_5" BEL "addr_req_6" BEL
+        "addr_req_7" BEL "addr_req_8" BEL "addr_req_9" BEL "addr_req_10" BEL
+        "addr_req_11" BEL "addr_req_12" BEL "addr_req_13" BEL "addr_req_14"
+        BEL "addr_req_15" BEL "addr_req_16" BEL "addr_req_17" BEL
+        "addr_req_18" BEL "addr_req_19" BEL "addr_req_20" BEL "addr_req_21"
+        BEL "init_enable" BEL "mem_addr_0" BEL "mem_addr_1" BEL "mem_addr_2"
+        BEL "mem_addr_3" BEL "mem_addr_4" BEL "mem_addr_5" BEL "mem_addr_6"
+        BEL "mem_addr_7" BEL "mem_addr_8" BEL "mem_addr_9" BEL "mem_addr_10"
+        BEL "mem_addr_11" BEL "clke" BEL "state_clk_count_0" BEL
+        "state_clk_count_1" BEL "rasn" BEL "ack" BEL "csn" BEL "casn" BEL
+        "wen" BEL "req_in_prog_0" BEL "req_in_prog_1" BEL "bank_0" BEL
+        "bank_1" BEL "init_state_FSM_FFd8" BEL "init_state_FSM_FFd4" BEL
+        "init_state_FSM_FFd5" BEL "init_state_FSM_FFd3" BEL
+        "init_state_FSM_FFd2" BEL "init_state_FSM_FFd1" BEL
+        "op_state_FSM_FFd3" BEL "op_state_FSM_FFd2" BEL "op_state_FSM_FFd1"
+        BEL "init_state_FSM_FFd7" BEL "init_state_FSM_FFd6" BEL "BUFG_inst"
+        BEL "refresh_clk/counter_8" BEL "refresh_clk/counter_7" BEL
+        "refresh_clk/counter_6" BEL "refresh_clk/counter_5" BEL
+        "refresh_clk/counter_4" BEL "refresh_clk/counter_3" BEL
+        "refresh_clk/counter_2" BEL "refresh_clk/counter_1" BEL
+        "refresh_clk/counter_0" BEL "init_clk/counter_11" BEL
+        "init_clk/counter_10" BEL "init_clk/counter_9" BEL
+        "init_clk/counter_8" BEL "init_clk/counter_7" BEL "init_clk/counter_6"
+        BEL "init_clk/counter_5" BEL "init_clk/counter_4" BEL
+        "init_clk/counter_3" BEL "init_clk/counter_2" BEL "init_clk/counter_1"
+        BEL "init_clk/counter_0" BEL "refresh_req" BEL "refresh_clk/out1" BEL
+        "init_clk/out1" BEL "row_diff" BEL "op_state_FSM_FFd2_1" BEL
+        "clk_out";
+TS_clk_in = PERIOD TIMEGRP "clk_in" 31.25 ns HIGH 50%;
+SCHEMATIC END;
+

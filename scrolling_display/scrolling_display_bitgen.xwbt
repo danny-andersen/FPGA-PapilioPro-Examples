@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\S243372\Dropbox\Workspaces\Projects_FPGA\scrolling_display\scrolling_display.ncd
+OUTFILE=C:\Users\S243372\Dropbox\Workspaces\Projects_FPGA\scrolling_display\scrolling_display.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\S243372\Dropbox\Workspaces\Projects_FPGA\scrolling_display
+LICENSE=WebPack
+USER_INFO=210912425_0_0_905

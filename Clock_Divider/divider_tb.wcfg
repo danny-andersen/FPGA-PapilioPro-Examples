@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/Clock_Divider/divider_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="divider_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/divider_tb/out1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out1</obj_property>
+      <obj_property name="ObjectShortName">out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_tb/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_tb/uut/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[6:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_tb/PERIOD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+</wave_config>

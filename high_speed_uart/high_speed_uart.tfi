@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+high_speed_uart instance_name (
+    .rx(rx), 
+    .tx_send(tx_send), 
+    .tx_ready(tx_ready), 
+    .clk(clk), 
+    .rst(rst), 
+    .rx_byte(rx_byte), 
+    .ready(ready), 
+    .frame_err(frame_err), 
+    .tx(tx)
+    );
+
+

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Jul 01 22:19:05 2014
+# Process ID: 8784
+# Log file: C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/Led_flasher/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/Led_flasher/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/S243372/Dropbox/Workspaces/Projects_FPGA/Led_flasher/pa.fromNetlist.tcl
+set_property pulltype PULLDOWN [get_ports [list rst]]
+set_property pulltype PULLUP [get_ports [list rst]]
+save_constraints

@@ -1,0 +1,3 @@
+verilog work "../four_char_display/four_char_display.v"
+verilog work "../Clock_Divider/divider.v"
+verilog work "four_char_example.v"
