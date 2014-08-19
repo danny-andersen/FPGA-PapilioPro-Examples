@@ -40,7 +40,6 @@ impact_impact.xwbt
 *.tcl
 _ngo/
 netgen/
-*.tcl
 *.bit
 *.bgn
 *.bld
@@ -64,13 +63,16 @@ netgen/
 *.ngm
 *.xrpt
 *.csv
+*.xpi
+*.xst
+*.xwbt
+*summary.xml
+*usage.xml
+*.gise
+iseconfig/
 webtalk_pn.xml
 planAhead*/
 xlnx_auto_*xdb/
-
-
-
- 
 
 #ignore OS noise
  

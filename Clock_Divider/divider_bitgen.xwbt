@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/danny/Papilio/Projects/Clock_Divider/divider.ncd
-OUTFILE=/home/danny/Papilio/Projects/Clock_Divider/divider.bit
-FAMILY=Spartan6
-PART=xc6slx9-2tqg144
-WORKINGDIR=/home/danny/Papilio/Projects/Clock_Divider
-LICENSE=WebPack
-USER_INFO=210912425_0_0_905

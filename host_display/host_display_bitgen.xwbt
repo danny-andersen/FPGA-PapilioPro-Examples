@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/danny/Dropbox/Workspaces/Projects_FPGA/host_display/host_display.ncd
-OUTFILE=/home/danny/Dropbox/Workspaces/Projects_FPGA/host_display/host_display.bit
-FAMILY=Spartan6
-PART=xc6slx9-2tqg144
-WORKINGDIR=/home/danny/Dropbox/Workspaces/Projects_FPGA/host_display
-LICENSE=WebPack
-USER_INFO=210912425_0_0_905
