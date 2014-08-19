@@ -1,3 +1,0 @@
-verilog work "../four_char_display/four_char_display.v"
-verilog work "../clock_gen/clock_gen.v"
-verilog work "scrolling_display.v"

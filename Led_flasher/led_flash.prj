@@ -1,3 +1,0 @@
-verilog work "ipcore_dir/dcm1.v"
-verilog work "divider.v"
-verilog work "led_flash.v"
