@@ -34,7 +34,44 @@ webtalk_impact.xml
 pepExtractor.prj
 impact.xsl
 impact_impact.xwbt
+
+#additions
+*.debug
+*.tcl
+_ngo/
+netgen/
+*.tcl
+*.bit
+*.bgn
+*.bld
+*.drc
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.prj
+*.ptwx
+*.syr
+*.tfi
+*.twr
+*.twx
+*.unroutes
+*.ut
+*.map
+*.mrp
+*.ngm
+*.xrpt
+*.csv
+webtalk_pn.xml
+planAhead*/
+xlnx_auto_*xdb/
+
+
+
  
+
 #ignore OS noise
  
 Thumbs.db
